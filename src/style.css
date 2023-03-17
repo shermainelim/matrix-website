@@ -1,0 +1,91 @@
+#mycanvas {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#menuToggle {
+  font-size: 16px;
+  background-color: rgba(160, 160, 160, 0.75);
+  border: 2px solid black;
+  border-radius: 10px;
+  float: right;
+  margin-left: 10px;
+  height: 30px;
+}
+
+#menuToggle label {
+  display: block;
+  line-height: 30px;
+  padding: 0px 5px;
+}
+
+#menuToggle:hover {
+  background-color: white;
+}
+
+#menuContainer {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+#menu {
+  margin-bottom: 10px;
+  background-color: rgba(160, 160, 160, 0.75);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#playToggle {
+  display: inline-block;
+  border: 2px solid black;
+  float: right;
+  background-color: rgba(160, 160, 160, 0.75);
+  border-radius: 50%;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+}
+
+#playToggle:hover {
+  background-color: white;
+}
+
+#playToggle label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+}
+
+#infoToggle,
+#fullscreenToggle {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.link > * {
+  cursor: pointer;
+  text-decoration: underline;
+  color: white;
+  font-family: arial;
+}
+
+.toggle input{
+  display: none;
+}
+
+.controls {
+  background-color: lightgrey;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  width: 100%;
+}
+
+.controls:active {
+  background-color: white;
+}
