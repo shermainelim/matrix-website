@@ -436,3 +436,61 @@ window.onload = function() {
 	eventListenerz();
 
 };
+
+//portfolio
+const portfolio = document?.getElementById("portfolio");
+const modal = document.querySelector(".modal");
+const closeButton = document.querySelector(".close-button");
+
+function toggleModal() {
+  modal.classList.toggle("show-modal");
+}
+
+function windowOnClick(event) {
+  if (event.target === modal) {
+    toggleModal();
+  }
+}
+
+portfolio.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+window.addEventListener("click", windowOnClick);
+
+//skills
+const skills = document?.getElementById("skills");
+const modal2 = document.querySelector(".modal2");
+const closeButton2 = document.querySelector(".close-button2");
+
+function toggleModal2() {
+  modal2.classList.toggle("show-modal2");
+}
+
+function windowOnClick2(event) {
+  if (event.target === modal2) {
+    toggleModal2();
+  }
+}
+
+skills.addEventListener("click", toggleModal2);
+closeButton2.addEventListener("click", toggleModal2);
+window.addEventListener("click", windowOnClick2);
+
+
+//portfolio
+const about = document?.getElementById("about");
+const modal3 = document.querySelector(".modal3");
+const closeButton3 = document.querySelector(".close-button3");
+
+function toggleModal3() {
+  modal3.classList.toggle("show-modal3");
+}
+
+function windowOnClick3(event) {
+  if (event.target === modal3) {
+    toggleModal3();
+  }
+}
+
+about.addEventListener("click", toggleModal3);
+closeButton3.addEventListener("click", toggleModal3);
+window.addEventListener("click", windowOnClick3);
