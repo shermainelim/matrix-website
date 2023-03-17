@@ -1,7 +1,5 @@
-# Matrix rain animation
+# Matrix code rain
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/yaclive/pen/EayLYO](https://codepen.io/yaclive/pen/EayLYO).
+A Pen created on CodePen.io. Original URL: [https://codepen.io/deimosss88/pen/ezzqer](https://codepen.io/deimosss88/pen/ezzqer).
 
-Matrix rain animation using HTML5 Canvas
-
-Forked from [Georgi Nikoloff](http://codepen.io/gbnikolov/)'s Pen [Matrix rain animation](http://codepen.io/gbnikolov/pen/sklmg/).
+Does what you would expect, demo write up here: http://neilcarpenter.com/labs/matrix-rain/

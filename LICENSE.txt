@@ -1,7 +1,7 @@
 The MIT License (MIT)
 
-Copyright (c) 2023 Clive Cooper (https://codepen.io/yaclive/pen/EayLYO)
-Fork of an original work Matrix rain animation (https://codepen.io/yaclive/pen/EayLYO)
+Copyright (c) 2023 deimos (https://codepen.io/deimosss88/pen/ezzqer)
+Fork of an original work Matrix code rain (https://codepen.io/deimosss88/pen/ezzqer)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
