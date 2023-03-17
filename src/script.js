@@ -587,22 +587,7 @@ const s = (p) => {
 
     info() {
       const scene = _.get(this, ['matrix', 'scenes', this.matrix.sceneNum]);
-      const sceneName = _.get(scene, 'name');
-      const raindropCount = this.matrix.cloud.raindrops.size;
-      let str = `${parseInt(p.frameRate())} fps 
-Frame ${p.frameCount} 
-Scene ${sceneName} 
-Raindrops ${raindropCount}`;
-      const bench = _.get(this, 'matrix.bench.state');
-      if (bench === "DONE") {  
-        const { fps, raindrops, symbols } = this.matrix.bench.stats;
-        str = str.concat(`\nBenchmark FPS - Avg ${fps.avg} Max ${fps.max} Min ${fps.min}
-Raindrops - Avg ${raindrops.avg} Max ${raindrops.max} Min ${raindrops.min}
-Symbols - Avg ${symbols.avg}  Max ${symbols.max} Min ${symbols.min}`);
-      } else if (bench === "RUNNING") {
-        str = str.concat(`\nBenchmark stats avail in ${m.bench.frames}`);
-      }
-
+      let str = "";    
       const lines = str.split('\n');
       const lineHeight = this.fontSize + this.textMargin;
       p.push();
