@@ -40,9 +40,9 @@ body {
     animation: blink 3s infinite;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 12px;
     font-family: 'matrix-code';
-    margin-left: 260px;
+    margin-left: 160px;
     color: #fff;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
   }
@@ -51,9 +51,9 @@ body {
     animation: blink 3s infinite;
     font-size: 14px;
     font-weight: bold;
-    margin-top: -50px;
+    margin-top: 72px;
     font-family: 'matrix-code';
-    margin-left: 520px;
+    margin-left: 160px;
     color: #fff;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
   }
@@ -62,9 +62,9 @@ body {
     animation: blink 3s infinite;
     font-size: 14px;
     font-weight: bold;
-    margin-top: -50px;
+    margin-top: 112px;
     font-family: 'matrix-code';
-    margin-left: 850px;
+    margin-left: 160px;
     color: #fff;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
   }
@@ -179,12 +179,12 @@ p a:hover {
 .modal-content {
   position: absolute;
   position: absolute;
-  top: 100%;
-  left: 250%;
+  top: 50%;
+  left: 65%;
   transform: translate(-50%, -50%);
   background-color: black;
   padding: 1rem 1.5rem;
-  width: 30rem;
+  width: 20rem;
   height: 25rem;
   border-radius: 0.5rem;
   text-align: center;
@@ -227,12 +227,12 @@ p a:hover {
 
 .modal-content2 {
   position: absolute;
-  top: 100%;
-  left: 250%;
+  top: 50%;
+  left: 65%;
   transform: translate(-50%, -50%);
   background-color: black;
   padding: 1rem 1.5rem;
-  width: 30rem;
+  width: 20rem;
   height: 20rem;
   border-radius: 0.5rem;
   text-align: center;
@@ -279,12 +279,12 @@ p a:hover {
 
 .modal-content3 {
   position: absolute;
-  top: 100%;
-  left: 250%;
+  top: 50%;
+  left: 65%;
   transform: translate(-50%, -50%);
   background-color: black;
   padding: 1rem 1.5rem;
-  width: 30rem;
+  width: 20rem;
   height: 22rem;
   border-radius: 0.5rem;
   text-align: center;
