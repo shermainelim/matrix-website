@@ -8,6 +8,10 @@
        url('http://neilcarpenter.com/demos/canvas/matrix/font/matrix-code.svg#svgFontName') format('svg');
 }
 
+body {
+  position:fixed;
+}
+
 p {
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -21,6 +25,7 @@ html, body {
     margin: 0;
     overflow: hidden;
     color: #fff;
+    
 
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -89,7 +94,8 @@ body {
 
 #info {
     position: fixed;
-    left: 0px;
+    left: 400px;
+    top: 100px;
     width: 250px;
     padding: 10px 20px 20px;
     z-index: 100;
@@ -180,7 +186,7 @@ p a:hover {
   position: absolute;
   position: absolute;
   top: 50%;
-  left: 65%;
+  left: 80%;
   transform: translate(-50%, -50%);
   background-color: black;
   padding: 1rem 1.5rem;
@@ -228,7 +234,7 @@ p a:hover {
 .modal-content2 {
   position: absolute;
   top: 50%;
-  left: 65%;
+  left: 80%;
   transform: translate(-50%, -50%);
   background-color: black;
   padding: 1rem 1.5rem;
@@ -280,7 +286,7 @@ p a:hover {
 .modal-content3 {
   position: absolute;
   top: 50%;
-  left: 65%;
+  left: 80%;
   transform: translate(-50%, -50%);
   background-color: black;
   padding: 1rem 1.5rem;
