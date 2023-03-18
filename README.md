@@ -4,8 +4,7 @@ Revamped Demo:
 
 https://matrixraincode.netlify.app/
 
-![matrixx (1)](https://user-images.githubusercontent.com/65886071/225959606-8d4dc1ea-dd1b-48ee-b6e2-c87b1aae2879.gif)
-
+![matrix](https://user-images.githubusercontent.com/65886071/226085337-ffec4e73-bf93-4588-862d-3bc80ae68a0c.gif)
 
 Referenced from:
 
