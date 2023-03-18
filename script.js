@@ -475,8 +475,9 @@ skills.addEventListener("click", toggleModal2);
 closeButton2.addEventListener("click", toggleModal2);
 window.addEventListener("click", windowOnClick2);
 
+const soundPlayer = new Audio("/images/characters/people/dragula.mp3");
 
-//portfolio
+//about
 const about = document?.getElementById("about");
 const modal3 = document.querySelector(".modal3");
 const closeButton3 = document.querySelector(".close-button3");
@@ -491,6 +492,15 @@ function windowOnClick3(event) {
   }
 }
 
+function clickedMusic(e) {
+	e.preventDefault();
+	//alert("Music started");
+  
+	soundPlayer.play();
+	soundPlayer.loop = true;
+  }
+
 about.addEventListener("click", toggleModal3);
+about.addEventListener("click", clickedMusic);
 closeButton3.addEventListener("click", toggleModal3);
 window.addEventListener("click", windowOnClick3);
